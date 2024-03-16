@@ -1,2 +1,4 @@
 # Hotel-management-System
-Frontend
+
+Frontend using html and css
+UI: 
