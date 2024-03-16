@@ -8,9 +8,10 @@
 </head>
 <body>
     <nav class="nav">
-        <a class="nav-link active" aria-current="page" href="#">Booking</a>
+        <a class="hideOnMobile" aria-current="page" href="#">Booking</a>
         <h2>COMFORT.HOTEL</h2>
-        <a class="nav-link" href="contact.html">Contact us</a>
+        <a class="hideOnMobile" href="contact.html">Contact us</a>
+        <a class="menubutton" onclick=showSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
       </nav>
     <div class="hotels">
       <span style="float: left;">HOTELS</span>
@@ -21,8 +22,21 @@
     <div class="centered-div" style="position: absolute; top: 50%; left :50%; transform: translate(-50%, -50%);">
         <img src="mainpic.jpg">
     </div>
-    <footer>
-      <div class="foot"></div>
-    </footer>
+    <nav class="sidebar">
+      <a onclick=hideSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></svg></a>
+      <a href="#">Booking</a>
+      <a href="contact.html">Contact us</a>
+    </nav>
+    <script>
+      function showSidebar(){
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+      
+    </script>
 </body>
 </html>
