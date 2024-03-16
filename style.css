@@ -1,0 +1,65 @@
+body {
+    background-color: #BEB5AB;
+}
+.nav {
+    background-color: #FFFBF5;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #131313;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2%;
+}
+a:hover {
+    text-decoration: underline #131313;
+}
+.hotels {
+    margin-top: 5rem;
+    
+}
+span {
+    line-height: 90%;
+    font-size: 14rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #131313;
+}
+p {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    float: left;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #131313;
+}
+img {
+    border-radius: 5%;
+    width: 25vw;
+    height: 60vh;
+}
+img:hover {
+    border: 1px solid #e8e9eb;
+    box-shadow:0 0 20px #e8e9eb;
+}
+.foot {
+    background-color: #FFFBF5;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+}
