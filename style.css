@@ -78,7 +78,6 @@ img:hover {
 @media screen and (max-width:1200px) {
     p {
         width: 100vw;
-        font-size: 1rem;
         text-align: center;
         position: absolute; 
         top: 95%; 
@@ -99,8 +98,16 @@ img {
 @media screen and (max-width:480px) {
 
     img {
-        height: 25rem;
-        width: 20rem;
+        height: 18rem;
+        width: 15rem;
+        top: 40%;
+    }
+    .hotels {
+        margin-top: 6.5rem;
+    }
+    span {
+        font-size: 8rem;
+        line-height: 100%;
     }
     h2 {
         padding-left: 2%;
@@ -110,5 +117,10 @@ img {
     }
     .menubutton{
         display: block;
+    }
+    p {
+        font-size: 1rem;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
