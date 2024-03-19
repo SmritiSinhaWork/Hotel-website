@@ -2,5 +2,7 @@
 
 Frontend using html, css and javascript
 
-UI: https://www.behance.net/gallery/184636049/Landing-page-for-Comforthouse-Web-design
-Took inspo from above UI design and made changes according to my need.
+URL: https://smritisinhawork.github.io/Hotel-website/
+
+Took inspo from UI design(mentioned below) and made changes according to my need.
+credits: https://www.behance.net/gallery/184636049/Landing-page-for-Comforthouse-Web-design
