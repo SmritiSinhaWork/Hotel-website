@@ -119,6 +119,7 @@ img {
         display: block;
     }
     p {
+        top: 70%;
         font-size: 1rem;
         padding-left: 2%;
         padding-right: 2%;
