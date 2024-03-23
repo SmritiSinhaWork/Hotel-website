@@ -130,20 +130,21 @@ img {
 }
 @media screen and (max-width:480px) {
 
+    
+    h2 {
+        padding-left: 2%;
+    }
     img {
         height: 18rem;
         width: 15rem;
-        top: 40%;
-    }
-    .hotels {
-        margin-top: 6.5rem;
+        top: 37%;
     }
     span {
         font-size: 8rem;
         line-height: 100%;
     }
-    h2 {
-        padding-left: 2%;
+    p {
+        top: 75%; 
     }
     .hideOnMobile{
         display: none;
@@ -151,13 +152,17 @@ img {
     .menubutton{
         display: block;
     }
-    p {
-        font-size: 1rem;
-    }
+
     .items {
         font-size: medium;
     }
     hr {
         width: 10rem;
+    }
+    .contact {
+        display: none;
+    }
+    footer {
+        bottom: -30%;
     }
 }
