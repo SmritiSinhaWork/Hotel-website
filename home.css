@@ -94,12 +94,15 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.contact a{
+    text-decoration: none;
+}
 hr {
     color:grey;
     width: 20rem;
 }
 .items {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .footnote h2 {
     padding: 2%;
