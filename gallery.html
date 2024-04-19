@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <nav class="nav">
+        <a class="hideOnMobile" aria-current="page" href="#">Booking</a>
+        <a id="comfort" href="home.html">COMFORT.HOTEL</a>
+        <a class="hideOnMobile" href="gallery.html">Gallery</a>
+        <a class="menubutton" onclick=showSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+      </nav>
+    <nav class="sidebar">
+       <a onclick=hideSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></svg></a>
+       <a href="#">Booking</a>
+       <a href="gallery.html">Gallery</a>
+    </nav>
+    <div id="image-gallery">
+        <img src="image1.jpg">
+        <img src="image2.jpg">
+        <img src="image3.jpg">
+        <img src="image4.jpg">
+        <img src="image5.jpg">
+        <img src="image6.jpg">
+    </div>
+    <script>
+        function showSidebar(){
+          const sidebar=document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar=document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+</body>
+</html>
