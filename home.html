@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>COMFORT.HOTEL</title>
+</head>
+<body>
+    <nav class="nav">
+        <a class="hideOnMobile" aria-current="page" href="booking.html">Booking</a>
+        <h2>COMFORT.HOTEL</h2>
+        <a class="hideOnMobile" href="gallery.html">Gallery</a>
+        <a class="menubutton" onclick=showSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+      </nav>
+      <nav class="sidebar">
+        <a onclick=hideSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></svg></a>
+        <a href="booking.html">Booking</a>
+        <a href="gallery.html">Gallery</a>
+      </nav>
+      <div class="hotels">
+      <span style="float: left;">HOTELS</span>
+      <span style="float: right;">HOTELS</span>
+      <span style="float: left;">HOTELS</span>
+    </div>
+    <img src="mainpic.jpg">
+    <p>We will take care of your cosiness give the opportunity to travel carefree in the hotel, which is always with you...</p>
+    <footer>
+      <div class="footnote">
+        <div class="website">
+          <h2>Website</h2><hr>
+          <a href="home.html" class="items">Home</a>
+          <a href="booking.html" class="items">Booking</a>
+          <a href="gallery.html" class="items">Gallery</a>
+        </div>
+        <div class="follow">
+          <h2>Follow</h2><hr>
+          <a href="https://www.instagram.com/iam_smritisinha/" class="items">Instagram</a>
+          <a href="https://www.facebook.com/login.php/" class="items">Facebook</a>
+          <a href="https://web.telegram.org/k/" class="items">Telegram</a>
+          <a href="https://in.pinterest.com/Smriti_here/" class="items">Pinterest</a>
+        </div>
+        <div class="contact">
+          <h2>Contact</h2><hr>
+          <a class="items">+910000000000</a>
+          <a class="items">janedoe12@gmail.com</a>
+        </div>  
+      </div>    
+    </footer>
+    <script>
+      function showSidebar(){
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+</body>
+</html>
