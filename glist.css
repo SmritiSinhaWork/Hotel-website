@@ -64,10 +64,10 @@ a:hover {
     padding: 1rem;
     font-size: 1.4rem;
 }
-
-h1{
+caption{
     text-align: center;
-    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
 }
 .wrapper {
     display:flex;
